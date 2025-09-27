@@ -1,0 +1,52 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.user-card {
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f9f9f9; 
+  color: #222;         
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+
+.search-container {
+  margin: 12px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 420px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.search-input:focus {
+  border-color: #770568;
+  box-shadow: 0 0 5px rgba(119, 5, 104, 0.3);
+}
